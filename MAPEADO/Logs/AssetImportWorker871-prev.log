@@ -1,0 +1,196 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit ProfessionalEducation' Language: 'es' Physical Memory: 4000 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker871
+-projectPath
+D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+-logFile
+Logs/AssetImportWorker871.log
+-srvPort
+59947
+Successfully changed project path to: D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+      8136 2f98 -
+      8136 1f30 -
+      8136 1c6c -
+      8136 bf0 -
+     14356 5d14 -
+     19556 6298 -
+     25372 1fcc -
+     20620 5ab8 -
+     19620 587c -
+     25280 5d2c -
+     23508 62ac -
+     19988 5b64 -
+     21820 5450 -
+     23176 5abc -
+     24324 5818 -
+     25540 5590 -
+     18816 63c8 -
+     24624 6034 -
+     19940 6020 -
+     25968 6574 -
+     25988 6588 -
+     26004 6598 -
+     25944 655c -
+     26036 65b8 -
+     26020 65a8 -
+     20116 5510 -
+     11668 589c -
+     22928 637c -
+     25224 5b38 -
+     17540 60fc -
+     17360 4918 -
+      9748 5b28 -
+     14328 4fb8 -
+     24832 5654 -
+     22548 61d4 -
+     23684 251c -
+       892 5574 -
+     24064 6088 -
+     21696 60d8 -
+     23804 63b4 -
+     25572 4480 -
+     19028 61a0 -
+     25484 50b8 -
+     19616 50e0 -
+     20684 651c -
+     24708 5604 -
+     24180 59dc -
+      3572 56a0 -
+     25560 4f84 -
+     23140 3a10 -
+     25480 43b0 -
+     17916 770 -
+     19748 5fc0 -
+     22968 5434 -
+     21308 4cac -
+     20404 176c -
+     25924 6548 -
+     25528 5c5c -
+     18548 2264 -
+     23676 39cc -
+     13108 4aac -
+     23356 3884 -
+     24584 5e38 -
+     14256 4e10 -
+     22996 4890 -
+     20440 4a04 -
+     26576 6608 -
+     25960 5204 -
+     24284 3bd0 -
+     26500 5914 -
+     26292 66d0 -
+     23288 5d1c -
+     26968 695c -
+     26992 6974 -
+     26952 694c -
+     26920 692c -
+     26936 693c -
+     26904 691c -
+      7928 5534 -
+     15060 3f50 -
+     22472 5a58 -
+     25744 6024 -
+     17520 5cc4 -
+     11600 3fdc -
+     23580 5468 -
+     15164 6128 -
+     19668 5c3c -
+     10072 5dbc -
+     23408 5868 -
+     19240 1ff0 -
+     22768 5834 -
+     26868 4ec8 -
+     26312 52a0 -
+     24700 4d9c -
+     25064 6454 -
+     23608 1a54 -
+     26304 6530 -
+     23584 5f80 -
+     21948 661c -
+     21252 6654 -
+      9588 31c -
+     16512 579c -
+     12696 613c -
+     21676 3f34 -
+     23880 3d64 -
+     24136 3174 -
+     24392 611c -
+     18052 24ec -
+      6132 6658 -
+     19820 4d2c 2338
+     24880 5d9c 2340
+     24648 62bc -
+     23568 5580 2341
+     26088 1e08 2341
+     23864 61ec -
+     21772 437c -
+     21736 5c98 -
+      2396 5fc -
+      2492 5a44 -
+     23376 5d0c -
+     23520 5e4c -
+     12596 5ca0 -
+      9200 52d0 -
+     18796 5d28 -
+     22452 481c -
+     23524 5c28 -
+Cleaned out 99 stale readers
+Refreshing native plugins compatible for Editor in 2533.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x22b1)
+    Vendor:   Intel
+    VRAM:     2000 MB
+    Driver:   20.19.15.5166
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
