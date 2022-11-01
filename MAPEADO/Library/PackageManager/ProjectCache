@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638025936561999026
-    m_Hash: 545385685
+      ticks: 638028408495666589
+    m_Hash: 1463002328
   m_LockFileStatus:
     m_FilePath: D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638025936562068898
-    m_Hash: 2216975041
+      ticks: 638028410703608690
+    m_Hash: 230827022
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

@@ -360,8 +360,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/enemigo/movEnemigo.cs"
-"Assets/player controller.cs"
-"Assets/Player.cs"
+"Assets/Scripts/player controller.cs"
+"Assets/Scripts/Player.cs"
 "Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/UseReferenceCamera.cs"
 "Assets/Visual Design Cafe/Nature Renderer/Runtime/NatureRenderer.SRP.cs"
 -langversion:9.0

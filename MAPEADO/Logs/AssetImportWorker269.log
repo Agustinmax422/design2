@@ -1,0 +1,190 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit ProfessionalEducation' Language: 'es' Physical Memory: 4000 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker269
+-projectPath
+D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+-logFile
+Logs/AssetImportWorker269.log
+-srvPort
+60876
+Successfully changed project path to: D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+      7544 2070 -
+      7544 394c -
+      2200 1100 -
+      7544 3238 -
+      7544 38e4 -
+     14536 18c0 -
+     13104 e40 -
+     13272 16c4 -
+      6532 3588 -
+     10664 269c -
+     14612 1178 -
+     13680 315c -
+     13424 bc8 -
+      9656 1428 -
+     12772 1e5c -
+      2184 770 -
+      6256 2708 -
+      5000 3bfc -
+     12492 34ec -
+     10288 22dc -
+      4804 3098 -
+      6912 1b44 -
+       224 15a0 -
+     14472 bdc -
+     10096 39bc -
+      8888 cb8 -
+      7868 21b8 -
+     12792 1728 -
+     13968 1094 -
+     12228 2740 -
+      2408 334c -
+      7292 3444 -
+      6920 3ac4 -
+      9400 3bb4 -
+     13164 3644 -
+      7340 1bec -
+     14680 16a0 -
+      7536 2d50 -
+     13784 1f90 -
+      3424 3558 -
+     13780 3054 -
+     14384 21a0 -
+      5752 e94 -
+     10244 8fc -
+      8240 3920 -
+      7392 37c0 -
+      9980 2760 -
+     11556 350c -
+      9644 191c -
+      8936 1934 -
+      9356 3128 -
+      9580 3924 2638
+      3640 3808 2638
+      2976 1f1c 2638
+     14748 32dc 2651
+     12284 26b4 2651
+     16084 3ee8 2655
+     15548 3b14 2655
+     16004 3e74 2657
+     16108 3db4 -
+     15496 3cdc -
+     11872 c50 2659
+     16324 13f4 -
+      8348 3f60 2661
+      5200 2a88 2661
+     16260 3f6c 2662
+      6228 2c68 2663
+     15188 37e8 -
+     14844 23e0 -
+      9432 32a4 -
+     11760 8b8 -
+      8536 31b4 -
+     14264 3b94 -
+      5516 355c -
+     16584 40cc -
+     13444 1c60 2674
+     16944 41a4 2676
+     16908 33c4 2677
+      3704 1b6c -
+     15048 430c -
+     10440 33e0 -
+     16064 1f58 -
+     17356 3ebc -
+      8568 f08 -
+     16672 2cdc -
+      2604 3a4c -
+     14424 2eb4 -
+     15608 4290 -
+     15880 316c -
+     16932 1788 -
+      8148 42e0 -
+     17112 28b8 -
+      6524 3680 -
+     14720 3594 -
+     15408 3c54 -
+      5324 17d4 -
+     17844 45b8 -
+     17860 45c8 -
+     17996 4650 -
+     17968 4634 -
+     17924 4608 -
+     17828 45a8 -
+     15712 c4 -
+      8424 18d8 -
+      8264 3518 -
+     13832 2ea4 -
+     17780 1d24 -
+     14584 4108 -
+     12208 434c -
+      8672 2c24 -
+      8000 1cec -
+     15420 3c38 -
+     10032 1970 -
+     15920 2354 -
+      6784 3c80 -
+     17472 4444 -
+     14196 326c -
+      4872 3a7c -
+     15820 3788 -
+     17056 3a84 -
+     10120 e58 -
+     14860 25e8 2722
+     17420 4408 2722
+     15848 3a30 2725
+     10196 4274 2725
+     15376 27d8 2726
+Cleaned out 104 stale readers
+Refreshing native plugins compatible for Editor in 11575.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/usuarios/alumno/documentos/GitHub/design2/MAPEADO/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x22b1)
+    Vendor:   Intel
+    VRAM:     2000 MB
+    Driver:   20.19.15.5166
