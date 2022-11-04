@@ -7,6 +7,9 @@ public class movEnemigo : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform[] puntos;
+    public int vidaEnemigo=1;
+    public int danio=1;
+    public GameObject Jugador;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,11 @@ public class movEnemigo : MonoBehaviour
             if(hit.gameObject.tag == "Player"){
                 agent.SetDestination(hit.gameObject.transform.position);
             }
+        }
+    }
+    private void OnTriggerEnter(Collider collision) {
+        if(collision.tag=="Player"){
+            Jugador.GetComponent<Player>().vidaPlayer-= danio;
         }
     }
 }

@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public float speed=10f;
     private new Rigidbody rigidbody;
+    public int vidaPlayer=1;
     void Start()
     {   
         
@@ -23,5 +24,8 @@ public class Player : MonoBehaviour
 
             rigidbody.MovePosition(transform.position + dir * speed * Time.deltaTime);
         }
+        if(vidaPlayer <= 0){
+                Destroy(this.gameObject);
+            }
     }
 }
