@@ -24,8 +24,13 @@ public class Player : MonoBehaviour
 
             rigidbody.MovePosition(transform.position + dir * speed * Time.deltaTime);
         }
-        if(vidaPlayer <= 0){
+        /*if(vidaPlayer <= 0){
                 Destroy(this.gameObject);
             }
+    */}
+    private void OnCollisionEnter(Collision other) {
+        if(other.collider.CompareTag("Enemigo")){
+            Destroy(this.gameObject);
+        }
     }
 }
