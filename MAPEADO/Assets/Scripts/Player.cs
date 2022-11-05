@@ -7,9 +7,14 @@ public class Player : MonoBehaviour
     public float speed=10f;
     private new Rigidbody rigidbody;
     public int vidaPlayer=1;
+
+
+   // [SerializeField] private Transform controladorGolpe;
+   // [SerializeField] private float radioGolpe;
+   // [SerializeField] private float danioGolpe;
+
     void Start()
-    {   
-        
+    {       
         rigidbody = GetComponent<Rigidbody>();
     }
 
@@ -27,10 +32,26 @@ public class Player : MonoBehaviour
         /*if(vidaPlayer <= 0){
                 Destroy(this.gameObject);
             }
-    */}
+    */
+/*    {
+        Golpe();
+    }*/
+}
     private void OnCollisionEnter(Collision other) {
         if(other.collider.CompareTag("Enemigo")){
             Destroy(this.gameObject);
         }
     }
+    /*private void Golpe(){
+        Collider[] objeto = Physics.OverlapSphere(controladorGolpe.position, radioGolpe);
+
+        foreach(Collider colisionador in objeto)
+        {
+            if(colisionador.CompareTag("Enemigo"))
+            {
+                colisionador.transform.GetComponent<movEnemigo>().TomarDanio(danioGolpe);
+            }
+        }
+    }
+    */
 }

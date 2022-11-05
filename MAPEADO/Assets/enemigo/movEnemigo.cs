@@ -7,9 +7,8 @@ public class movEnemigo : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform[] puntos;
-    public int vidaEnemigo=1;
-    public int danio=1;
-    public GameObject Jugador;
+
+    //[SerializeField] private float vida;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +28,17 @@ public class movEnemigo : MonoBehaviour
             }
         }
     }
-    private void OnTriggerEnter(Collider collision) {
-        if(collision.tag=="Player"){
-            Jugador.GetComponent<Player>().vidaPlayer-= danio;
+   /* public void TomarDanio(float danio)
+    {
+        vida -= danio;
+        if(vida <= 0)
+        {
+            Muerte();
         }
     }
+
+    private void Muerte()
+    {
+       Destroy(this.gameObject); 
+    }*/
 }
