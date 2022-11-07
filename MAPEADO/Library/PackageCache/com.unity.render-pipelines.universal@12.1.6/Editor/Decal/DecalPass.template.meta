@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:MAPEADO/Assets/Models.meta
+guid: 9504f61c6c917f348937f2323acd001b
+folderAsset: yes
+========
 guid: 39262bb9f1f65f040aefacd75fbd0e47
+>>>>>>>> e632757efdc1238d7fa6395f53d0c01dbde1007d:MAPEADO/Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Editor/Decal/DecalPass.template.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

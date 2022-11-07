@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:MAPEADO/Assets/Scenes/Mapa escena.unity.meta
 guid: fcbd48832688f2f46b09375922d1e956
+========
+guid: e026d555eae824f65922633f37a14385
+>>>>>>>> e632757efdc1238d7fa6395f53d0c01dbde1007d:MAPEADO/Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Editor/SceneTemplates/Basic.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

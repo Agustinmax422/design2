@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:MAPEADO/Assets/Animation.meta
+guid: 61698d9084bb2c64badfc5a22c67cd88
+folderAsset: yes
+========
 guid: 5cae0d87369a2405eaa962b8d920b947
+>>>>>>>> e632757efdc1238d7fa6395f53d0c01dbde1007d:MAPEADO/Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Editor/SceneTemplates/Standard.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

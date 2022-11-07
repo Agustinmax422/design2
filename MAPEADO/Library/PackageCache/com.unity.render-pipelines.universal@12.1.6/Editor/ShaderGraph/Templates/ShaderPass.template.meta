@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:MAPEADO/Assets/Materials.meta
+guid: 07e7f1ee39b1a194b845d725f4d0718a
+folderAsset: yes
+========
 guid: e0c1f3f375c6ee44da3982445ffb92a4
+>>>>>>>> e632757efdc1238d7fa6395f53d0c01dbde1007d:MAPEADO/Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Editor/ShaderGraph/Templates/ShaderPass.template.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
