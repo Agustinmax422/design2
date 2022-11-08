@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7514 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/macie/Documents/GitHub/design2/MAPEADO
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51190
+Successfully changed project path to: C:/Users/macie/Documents/GitHub/design2/MAPEADO
+C:/Users/macie/Documents/GitHub/design2/MAPEADO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 152.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/macie/Documents/GitHub/design2/MAPEADO/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3757 MB
+    Driver:   30.0.13040.13
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010872 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 133.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (82ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\macie\Documents\GitHub\design2\MAPEADO\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\macie\Documents\GitHub\design2\MAPEADO\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 127.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2242ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (1776ms)
+			LoadAssemblies (269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (894ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (212ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.9 MB). Loaded Objects now: 5635.
+Memory consumption went from 217.6 MB to 215.7 MB.
+Total: 11.319800 ms (FindLiveObjects: 1.409800 ms CreateObjectMapping: 0.776300 ms MarkObjects: 7.306400 ms  DeleteObjects: 1.821000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4452.998527 seconds.
+  path: Assets/Models/church.fbx
+  artifactKey: Guid(2e2e6bfd036fec84b9de8d2a63301f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/church.fbx using Guid(2e2e6bfd036fec84b9de8d2a63301f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Attempting to get Camera relative temporary RenderTexture (width || height <= 0) via a CommandBuffer  in a Sriptable Render Pipeline.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:ExecuteCommandBuffer_Internal (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.ScriptableRenderContext:ExecuteCommandBuffer (UnityEngine.Rendering.CommandBuffer)
+UnityEngine.Rendering.Universal.Internal.CopyColorPass:Execute (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/Passes/CopyColorPass.cs:111)
+UnityEngine.Rendering.Universal.ScriptableRenderer:ExecuteRenderPass (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.ScriptableRenderPass,UnityEngine.Rendering.Universal.RenderingData&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/ScriptableRenderer.cs:1003)
+UnityEngine.Rendering.Universal.ScriptableRenderer:ExecuteBlock (int,UnityEngine.Rendering.Universal.ScriptableRenderer/RenderBlocks&,UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/ScriptableRenderer.cs:962)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Execute (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/ScriptableRenderer.cs:758)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:415)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:324)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:279)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[ line 0]
+
+Trying to get RenderBuffer with invalid antiAliasing (must be at least 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:431)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:324)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:279)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime\Graphics\RenderBufferManager.cpp line 180]
+
+Trying to get RenderBuffer with invalid antiAliasing (must be at least 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:431)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:324)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.6/Runtime/UniversalRenderPipeline.cs:279)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime\Graphics\RenderBufferManager.cpp line 180]
+
+ -> (artifact id: '24510ed315bd4bcd176cbc3755414c6d') in 0.379377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.475799 seconds.
+  path: Assets/Models/farolComunAceite.fbx
+  artifactKey: Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolComunAceite.fbx using Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3934623de904417cda2c9600dda02242') in 0.062431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.716607 seconds.
+  path: Assets/Models/farolComunAceite.fbx
+  artifactKey: Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolComunAceite.fbx using Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cb46d917e6a4ce4a3797ce6011f3ea') in 0.033435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.275876 seconds.
+  path: Assets/Models/farolManoAceite.fbx
+  artifactKey: Guid(a51aa9f84ddac634b9414c617332eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolManoAceite.fbx using Guid(a51aa9f84ddac634b9414c617332eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6847e8de73ca40441f8f22071280689c') in 0.087316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.382069 seconds.
+  path: Assets/Models/Capsule.prefab
+  artifactKey: Guid(f69fe0d11bbf5c04a8d791c7224895f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Capsule.prefab using Guid(f69fe0d11bbf5c04a8d791c7224895f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8087d071116778b11f42b7d050dd83') in 0.053949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.785196 seconds.
+  path: Assets/Models/church - copia.fbx
+  artifactKey: Guid(bee688d992834044f8a80275b84628d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/church - copia.fbx using Guid(bee688d992834044f8a80275b84628d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1adeeec9b0e3a121b5f1ee8d8bff377') in 0.043312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.942256 seconds.
+  path: Assets/Models/BRIDGE.fbx
+  artifactKey: Guid(df50266d399d4a1408a8c32f4440e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BRIDGE.fbx using Guid(df50266d399d4a1408a8c32f4440e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b0da8cf47f8955f6267a281c48921') in 0.062795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.002671 seconds.
+  path: Assets/Models/arbol (1) 1.fbx
+  artifactKey: Guid(e31c9948d2c298c439ac54eaa0a4e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/arbol (1) 1.fbx using Guid(e31c9948d2c298c439ac54eaa0a4e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3dd1043f3cb53078ca38c2b976d12b') in 0.052068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.529028 seconds.
+  path: Assets/Models/farolComunAceite.prefab
+  artifactKey: Guid(284190665be3c5d49a6987e3ba9b7edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolComunAceite.prefab using Guid(284190665be3c5d49a6987e3ba9b7edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21928d657a3bd67f353db9eff87ce62') in 0.008685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.147931 seconds.
+  path: Assets/Models/farolManoAceite.prefab
+  artifactKey: Guid(2aa643534f0db7a4197718021fd04e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolManoAceite.prefab using Guid(2aa643534f0db7a4197718021fd04e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc9dd744251e6c2291f57d01d582eb4') in 0.021131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 427.011317 seconds.
+  path: Assets/Models/farolManoAceite_model.fbx
+  artifactKey: Guid(a51aa9f84ddac634b9414c617332eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolManoAceite_model.fbx using Guid(a51aa9f84ddac634b9414c617332eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c364e4d2393b85896be05bd2bcb75a') in 0.049842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.605811 seconds.
+  path: Assets/Models/farolComunAceite_model.fbx
+  artifactKey: Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/farolComunAceite_model.fbx using Guid(5116134fbe5f0074685366ab36043cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eea627584cdd7e2999f78db6ca62288') in 0.049238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.589410 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(49cd3db71d847754f8a3cd8c50fbe4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(49cd3db71d847754f8a3cd8c50fbe4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10cc7e23b286d408e77d44f8feabb2') in 0.014433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.390966 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e1349a97822ec3eee79c77be5ff383') in 0.042703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.648488 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71f9b6c8a7e5cf3c248909f94253cd6') in 0.031781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.895153 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc75bc402491a3c86371c50a0022a5') in 0.039698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.145652 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc5f8b0846b476f391a3ef1184a00fc') in 0.039369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.924100 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b542ec08e1d0331757abb0c515903781') in 0.029551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.887362 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24221e6fbdf4574c76df4a7592b7acc') in 0.037754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.646344 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150fd9ab892fe97964b19c3bbf3ae86') in 0.031359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.018276 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35fb729d890c435a7728fed140e33fc') in 0.085264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 275.949908 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e4ce91b244c9ff0b4a7b085491e37d') in 0.038977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.620506 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c77b571dd8a302cbf0c075e6d0933d4') in 0.041298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.070762 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9411b4263cef1e4595c1096094ca3661') in 0.040136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.989491 seconds.
+  path: Assets/Prefabs/FaroCubo.prefab
+  artifactKey: Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroCubo.prefab using Guid(7302c992b65599e4aa474476bcea6e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3fa8096dcfe722af770efd9b3e3f47') in 0.050694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.295388 seconds.
+  path: Assets/Prefabs/FaroSphere.prefab
+  artifactKey: Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroSphere.prefab using Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212431e300fed3e93ee9f568210a649b') in 0.048737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.852965 seconds.
+  path: Assets/Prefabs/FaroSphere.prefab
+  artifactKey: Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroSphere.prefab using Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719d07e288fb43481b2d3825ee393d7e') in 0.050945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.235273 seconds.
+  path: Assets/Prefabs/FaroSphere.prefab
+  artifactKey: Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroSphere.prefab using Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3c04f2d31deb7e4f114b8948dd7e89') in 0.053512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.630069 seconds.
+  path: Assets/Prefabs/FaroSphere.prefab
+  artifactKey: Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroSphere.prefab using Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c7bb8c4fc20f689e44725b3418f905') in 0.045334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.596459 seconds.
+  path: Assets/Prefabs/FaroSphere.prefab
+  artifactKey: Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FaroSphere.prefab using Guid(62b275d8bf4361845a6c3a589c59cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e92ec20e0a678f8cbc1d7ad78c7dcb') in 0.035218 seconds 
