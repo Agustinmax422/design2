@@ -12,19 +12,7 @@ public class Voz : MonoBehaviour
      KeywordRecognizer keywordRecognizer;
 Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
 
-public void Play(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    
-    Debug.Log("Jugando");
-    
 
-}
-public void Salir(){
-    Application.Quit();
-    Debug.Log("Saliendo");
-    
-    
-}
     void Start()
     {
         
@@ -61,4 +49,21 @@ keywordRecognizer.Start();
         keywordAction.Invoke();
     }
 }
+
+    public void Play(AudioSource play)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        play.Play();
+        Debug.Log("Jugando");
+
+
+    }
+    public void Salir(AudioSource salir)
+    {
+        salir.Play();
+        Application.Quit();
+        Debug.Log("Saliendo");
+
+
+    }
 }

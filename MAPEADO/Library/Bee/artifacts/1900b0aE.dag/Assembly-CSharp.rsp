@@ -388,6 +388,7 @@
 "Assets/Scripts/Ataque.cs"
 "Assets/Scripts/Blit.cs"
 "Assets/Scripts/DetectorVoz.cs"
+"Assets/Scripts/fade_volume.cs"
 "Assets/Scripts/movEnemigo.cs"
 "Assets/Scripts/player controller.cs"
 "Assets/Scripts/Player.cs"
