@@ -27,4 +27,9 @@ public class movEnemigo : MonoBehaviour
             }
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(this.transform.position, 16f);
+    }
 }
