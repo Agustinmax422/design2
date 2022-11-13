@@ -106,8 +106,13 @@ public class _Player : MonoBehaviour
 
         }*/
 
-
-
     }
+    private void OnCollisionEnter(Collision collision) 
+     {
+        if(collision.gameObject.CompareTag("Enemigo"))
+        {
+            Destroy(gameObject);
+        }   
+     }
 }
 
