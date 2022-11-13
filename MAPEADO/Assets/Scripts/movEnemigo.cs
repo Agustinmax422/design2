@@ -10,7 +10,7 @@ public class movEnemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        agent.SetDestination(puntos[Random.Range(0,puntos.Length)].position);   
+        agent.SetDestination(puntos[Random.Range(0,puntos.Length)].position);
     }
 
     // Update is called once per frame
@@ -18,6 +18,13 @@ public class movEnemigo : MonoBehaviour
     {
         if(agent.remainingDistance < 0.1){
             agent.SetDestination(puntos[Random.Range(0, puntos.Length)].position);
+        }
+        Collider[] objeto = Physics.OverlapSphere(this.transform.position,4f);
+        foreach(var hit in objeto)
+        {
+            if(hit.gameObject.tag == "Player"){
+                agent.SetDestination(hit.gameObject.transform.position);
+            }
         }
     }
 }
