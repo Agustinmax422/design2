@@ -12,7 +12,8 @@ public class Voz : MonoBehaviour
      KeywordRecognizer keywordRecognizer;
 Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
 
-
+    public float tiempo_start=0; 
+         public  float tiempo_end=4; 
     void Start()
     {
         
@@ -21,12 +22,13 @@ Dictionary<string, System.Action> keywords = new Dictionary<string, System.Actio
 {
    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     Debug.Log("se escucha");
+    WindowsVoice.speak("Entrando al juego",5);
 });
     keywords.Add("salir", () =>
 {
   Application.Quit();
     Debug.Log("Saliendo");
-    
+    WindowsVoice.speak("Saliendo del juego",2);
     
 });
 
@@ -35,10 +37,10 @@ keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 keywordRecognizer.Start();
     }
 
-    // Update is called once per frame
+       
     void Update()
     {
-        
+          
     }
      private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
 {
@@ -52,18 +54,24 @@ keywordRecognizer.Start();
 
     public void Play(AudioSource play)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+         
+     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         play.Play();
         Debug.Log("Jugando");
-
-
+        WindowsVoice.speak("Entrando al juego",5);
+        /*
+        tiempo_start += Time.deltaTime;//Función para que la variable tiempo_start vaya contando segundos.
+        if (tiempo_start != tiempo_end) //Si pasan los segundos que hemos puesto antes...
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }*/
     }
     public void Salir(AudioSource salir)
     {
         salir.Play();
         Application.Quit();
         Debug.Log("Saliendo");
-
+    WindowsVoice.speak("saliendo del juego",2);
 
     }
 }
