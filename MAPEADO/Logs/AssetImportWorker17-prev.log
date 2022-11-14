@@ -9,11 +9,19 @@ C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
+<<<<<<< HEAD
 AssetImportWorker17
 -projectPath
 C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker17.log
+=======
+AssetImportWorker29
+-projectPath
+C:/gitHub3110/design2/MAPEADO
+-logFile
+Logs/AssetImportWorker29.log
+>>>>>>> merge_pruieba
 -srvPort
 51616
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
@@ -47,8 +55,13 @@ C:/gitHub3110/design2/MAPEADO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2114.76 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 4.79 ms.
+=======
+Refreshing native plugins compatible for Editor in 1992.41 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 33.71 ms.
+>>>>>>> merge_pruieba
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/gitHub3110/design2/MAPEADO/Assets
@@ -59,6 +72,7 @@ Direct3D:
     Vendor:   Intel
     VRAM:     2000 MB
     Driver:   20.19.15.5166
+<<<<<<< HEAD
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -104,3 +118,5 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.322647 seconds.
+=======
+>>>>>>> merge_pruieba

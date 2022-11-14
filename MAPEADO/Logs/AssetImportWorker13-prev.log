@@ -15,7 +15,11 @@ C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
+<<<<<<< HEAD
 51616
+=======
+50743
+>>>>>>> merge_pruieba
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
 C:/gitHub3110/design2/MAPEADO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config

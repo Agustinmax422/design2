@@ -9,11 +9,19 @@ C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
+<<<<<<< HEAD
 AssetImportWorker28
 -projectPath
 C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker28.log
+=======
+AssetImportWorker13
+-projectPath
+C:/gitHub3110/design2/MAPEADO
+-logFile
+Logs/AssetImportWorker13.log
+>>>>>>> merge_pruieba
 -srvPort
 51616
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
@@ -47,6 +55,7 @@ C:/gitHub3110/design2/MAPEADO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1262.71 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 3.40 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
@@ -59,3 +68,5 @@ Direct3D:
     Vendor:   Intel
     VRAM:     2000 MB
     Driver:   20.19.15.5166
+=======
+>>>>>>> merge_pruieba

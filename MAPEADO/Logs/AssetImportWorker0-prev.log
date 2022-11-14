@@ -15,7 +15,11 @@ C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 51616
+=======
+52454
+>>>>>>> merge_pruieba
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
 C:/gitHub3110/design2/MAPEADO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +51,13 @@ C:/gitHub3110/design2/MAPEADO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1730.16 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 25.03 ms.
+=======
+Refreshing native plugins compatible for Editor in 6523.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 138.53 ms.
+>>>>>>> merge_pruieba
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/gitHub3110/design2/MAPEADO/Assets
@@ -59,6 +68,7 @@ Direct3D:
     Vendor:   Intel
     VRAM:     2000 MB
     Driver:   20.19.15.5166
+<<<<<<< HEAD
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -73,3 +83,5 @@ Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1321.02 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 15.85 ms.
+=======
+>>>>>>> merge_pruieba

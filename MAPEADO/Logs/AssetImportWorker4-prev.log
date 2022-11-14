@@ -15,7 +15,11 @@ C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
+<<<<<<< HEAD
 51616
+=======
+52454
+>>>>>>> merge_pruieba
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
 C:/gitHub3110/design2/MAPEADO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,6 +51,7 @@ C:/gitHub3110/design2/MAPEADO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3034.66 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 3.05 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
@@ -69,3 +74,5 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.239379 seconds.
+=======
+>>>>>>> merge_pruieba
