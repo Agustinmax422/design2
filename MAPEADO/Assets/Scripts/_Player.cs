@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class _Player : MonoBehaviour
 {
     public float speed = 30f;
@@ -107,12 +107,26 @@ public class _Player : MonoBehaviour
         }*/
 
     }
+    
     private void OnCollisionEnter(Collision collision) 
      {
         if(collision.gameObject.CompareTag("Enemigo"))
         {
-            Destroy(gameObject);
+           // Destroy(gameObject);
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }   
      }
-}
+    
+    /*
+     private void OnTriggerStay(Collider other){
+
+        if(other.gameObject.CompareTag("Enemigo")){
+            if(Input.GetKeyDown(KeyCode.F)){
+                Destroy(other);
+               Debug.Log("pegando");
+            }
+            Debug.Log("detect");
+        }
+     }
+*/}
 

@@ -19,7 +19,7 @@ public class jefe : MonoBehaviour
         Transform P_player = _player.transform;
         pos_atack = new Vector2(P_player.position.x-this.transform.position.x, P_player.position.z-this.transform.position.z );
 
-        Debug.Log(pos_atack);
+//        Debug.Log(pos_atack);
     }
     private void OnBecameInvisible()
     {
