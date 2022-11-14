@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemigo
   - jefe
+  - AtaqueJ
+  - Enemigo2
   layers:
   - Default
   - TransparentFX
