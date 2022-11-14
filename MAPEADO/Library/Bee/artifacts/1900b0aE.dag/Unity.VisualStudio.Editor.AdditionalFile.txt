@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+C:\Users\macie\Documents\GitHub\design2\MAPEADO
+=======
 C:\Users\Agustin\Documents\00 unity\Repository\design2\MAPEADO
+>>>>>>> origin/prueba-main
