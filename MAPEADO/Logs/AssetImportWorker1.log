@@ -15,7 +15,7 @@ C:/gitHub3110/design2/MAPEADO
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63766
+50743
 Successfully changed project path to: C:/gitHub3110/design2/MAPEADO
 C:/gitHub3110/design2/MAPEADO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/gitHub3110/design2/MAPEADO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 8039.97 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 6.66 ms.
+Refreshing native plugins compatible for Editor in 2622.88 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 18.69 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/gitHub3110/design2/MAPEADO/Assets

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class _Player : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class _Player : MonoBehaviour
     private Vector2 last_pos;
     public GameObject sfx;
     private AudioSource[] audios;
+
+    public event EventHandler MuertePlayer;
+    public bool muerto = false;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -76,7 +80,7 @@ public class _Player : MonoBehaviour
     {
         audios = sfx.GetComponents<AudioSource>();
         int num;
-        num = Random.Range(0, audios.Length);
+        //num = Random.Range(0, audios.Length);
 
         if (_play == false)
         {
@@ -111,6 +115,8 @@ public class _Player : MonoBehaviour
      {
         if(collision.gameObject.CompareTag("Enemigo"))
         {
+            //MuertePlayer.Invoke(this, EventArgs.Empty);
+            muerto = true;
             Destroy(gameObject);
         }   
      }
