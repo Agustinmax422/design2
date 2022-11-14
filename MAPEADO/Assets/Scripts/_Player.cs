@@ -44,7 +44,7 @@ public class _Player : MonoBehaviour
         {
             _Sfx(false);
         }
-        Debug.Log(velocity);
+       
         last_pos = current_pos;
     }
 
@@ -106,8 +106,13 @@ public class _Player : MonoBehaviour
 
         }*/
 
-
-
     }
+    private void OnCollisionEnter(Collision collision) 
+     {
+        if(collision.gameObject.CompareTag("Enemigo"))
+        {
+            Destroy(gameObject);
+        }   
+     }
 }
 

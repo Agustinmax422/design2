@@ -389,6 +389,7 @@
 "Assets/Scripts/Blit.cs"
 "Assets/Scripts/DetectorVoz.cs"
 "Assets/Scripts/fade_volume.cs"
+"Assets/Scripts/jefe.cs"
 "Assets/Scripts/movEnemigo.cs"
 "Assets/Scripts/player controller.cs"
 "Assets/Scripts/Player.cs"
